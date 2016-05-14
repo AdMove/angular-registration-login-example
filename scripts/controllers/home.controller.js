@@ -36,9 +36,9 @@
 
         function deleteUser(id) {
             UserService.Delete(id)
-            .then(function () {
-                loadAllUsers();
-            });
+                .then(function () {
+                    loadAllUsers();
+                });
         }
     }
 
